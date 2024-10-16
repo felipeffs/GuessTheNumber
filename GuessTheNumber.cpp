@@ -59,8 +59,8 @@ void ShowStartScreen()
 {
 	std::cout << "====== GUESS THE NUMBER ==========" << std::endl;
 	std::cout << "Tente advinhar o numero sorteado de 1 a 100 em menos tentativas conseguir." << std::endl;
-	std::cout << "Calma, a cada tentativa mostrara se o numero é maior ou menor que o numero tentado." << std::endl;
-	std::cout << "Quando tiver pronto pressione ENTER!" << std::endl;
+	std::cout << "Calma, a cada tentativa mostrara se o numero é maior ou menor que o seu palpite." << std::endl;
+	std::cout << "Quando estiver pronto, pressione ENTER!" << std::endl;
 	std::cin.get();
 	PlayBeep();
 
